@@ -1,0 +1,13 @@
+#Archivos de Python 
+_pycache_/
+.py[code]
+
+#Entorno virtual
+venv/
+.venv/
+
+#Django 
+db.ssqlite3
+
+#variables de entorno
+.env
