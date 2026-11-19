@@ -1,13 +1,13 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    background-color: #860f0f;
+    background-color: #c04b4b;
     color: #333;
 }
 
 /* ENCABEZADO */
 header {
-    background-color: rgb(4, 1, 41);
+    background-color: rgb(184, 183, 196);
     color: rgb(0, 0, 0);
     text-align: center;
     padding: 20px;
@@ -15,7 +15,7 @@ header {
 
 /* MENÚ */
 nav {
-    background-color: #c18486;
+    background-color: #cbe77f;
     padding: 10px;
 }
 nav ul {
@@ -35,7 +35,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #501313;
+    color: #659dc2;
 }
 
 /* CONTENIDO PRINCIPAL */
@@ -62,4 +62,30 @@ footer {
     color: white;
     text-align: center;
     padding: 15px;
+}
+form {
+    background-color: aqua;
+    width: 350px;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+input, select, textarea{
+    width: 95%;
+    padding: 8px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: bisque;
+}
+button{
+    background-color: aquamarine;
+    color: #c18486;
+    padding: 10px;
+    border: none;
+    width: 95%;
+    cursor: pointer;
+}
+label{
+    background-color: #860f0f;
+
 }
