@@ -1,0 +1,56 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRO</title>
+
+    <link rel="stylesheet" href="{% static 'ramirez/estilos.css' %}">
+</head>
+
+<body>
+
+    <!-- ENCABEZADO -->
+    <header>
+        <h1>REGISTRA TUS DATOS</h1>
+
+        <!-- MENÚ DE NAVEGACIÓN -->
+        <nav>
+            <ul>
+                <li><a href="inicio">Inicio</a></li>
+                <li><a href="registro">REGISTRO</a></li>
+                <li><a href="Deportes_CB">Deportes_CB</a></li>
+                <li><a href="#">tres</a></li>
+            </ul>
+        </nav>
+    </header>
+<form method="POST" class="DEPORTES">
+    <label>Para ti los deportes son una prioridad</label>
+    <input type="text" name="Para ti los deportes son una prioridad" placeholder="Escribe tu respuesta con breve explicacion..." requiered>
+    <label>correo electronico</label>
+    <input type="email" name="correo" placeholder="escribe tu correo electronico..."requiered> 
+    <label>En una escala del 1 al 10 cual es tu nivel deportivo</label>
+    <input type="number" name="En una escala del 1 al 10 cual es tu nivel deportivo" placeholder="escribe el numero..." required>
+    <label>Sueles ver partidos de fubol con frecuencia</label>
+    <input type="radio" name="Sueles ver partidos de futbol con frecuencia" value="Siempre"><label>Siempre</label>
+    <input type="radio" name="Sueles ver partidos de futbol con frecuencia" value="A veces"><label>A veces</label>
+    <label>Cuantas horas al dia practicas deporte</label>
+    <input type="radio" name="Cuantas horas al dia practicas deporte" value="1 o 2"><label>1 o 2</label>
+    <input type="radio" name="Cuantas horas al dia practicas deporte" value="2 a 4"><label>2 a 4</label>
+    <input type="radio" name="Cuantas horas al dia practicas deporte" value="4 a 6"><label>4 a 6</label>
+    <label>Desde que edad empezaste a practicar un deporte</label>
+    <input type="number" name="Desde que edad empezaste a practicar un deporte" placeholder="escribe la edad..." required>
+    <label>Que equipo de futbol profesional es tu favorito</label>
+    <input type="number" name="Desde que edad empezaste a practicar un deporte" placeholder="Escribe el nombre del equipo..." required>
+
+    <footer>
+        <p>Arriba las Chivas </p>
+    </footer>
+
+</body>
+</html>
+    <input type="textarea" name="Escribe los 3 deportes que mas te gusten" value="Escribe tu deporte"><label>Escribe tu deporte</label>
+    <input type="number" name="Categorias" value="futbolo 7"><label>Futbol 7</label>
+    <input type="checkbox" name="Categorias" value="futbol 11"><label>futbol 11</label>
+     <la
